@@ -1,0 +1,62 @@
+.container {
+    width: 700px;
+    margin: auto;
+    padding: 5px;
+}
+.kiri {
+    width: 350px;
+    height: 500px;
+    background-color: rgb(93, 118, 172);
+    float: left;
+    padding: 10px;
+    box-sizing: border-box
+}
+img {
+    float: right;
+    margin-top: 70px;
+ }
+
+.kanan {
+    width: 350px;
+    height: 500px;
+    background-color: rgb(124, 137, 179);
+    float: right;
+}
+
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 75%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
